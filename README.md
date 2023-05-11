@@ -1,24 +1,27 @@
 # plav-vue
 
-## Project setup
+### vue create my-app
+### how to create a mock server:
 ```
-npm install
+create a folder named db in root and create a file named db.json and paster some json data:
 ```
-
-### Compiles and hot-reloads for development
+install: npm i json-server      
+npx json-server --watch data/db.json 
 ```
-npm run serve
 ```
-
-### Compiles and minifies for production
+Now connect it:
+    fetch('http://localhost:3000/projects')
+    .then(response => response.json())
+    .then(data => this.projects = data)
+    .catch(err => console.log(err.message))
+  },
+```  
+### Install and use Bootstrap5:
 ```
-npm run build
+npm i bootstrap
 ```
-
-### Lints and fixes files
 ```
-npm run lint
+in main.js:
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.js'
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
