@@ -1,12 +1,12 @@
-# plav-vue
+### app name:  plav-vue
 
 ### vue create my-app
 ### how to create a mock server:
-```
+
 create a folder named db in root and create a file named db.json and paster some json data:
 ```
 install: npm i json-server      
-npx json-server --watch data/db.json 
+in terminal: npx json-server --watch data/db.json 
 ```
 ```
 Now connect it:
