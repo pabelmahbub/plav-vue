@@ -1,4 +1,5 @@
-### app name:  plav-vue
+### app name:  plan-vue
+### Live site: https://project-tracker-vue.netlify.app/
 
 ### vue create my-app
 ### how to create a mock server:
