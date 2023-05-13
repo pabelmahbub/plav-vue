@@ -1,34 +1,3 @@
 {
-  "projects": [
-    {
-      "id": 2,
-      "title": "Dynass hot",
-      "details": "Malam hot",
-      "complete": true
-    },
-    {
-      "id": 3,
-      "title": "Emmery",
-      "details": "Colerick",
-      "complete": false
-    },
-    {
-      "title": "Edit Video In apps",
-      "details": "In Netlify in apps",
-      "complete": false,
-      "id": 4
-    },
-    {
-      "title": "aa",
-      "details": "zz",
-      "complete": false,
-      "id": 5
-    },
-    {
-      "title": "zz",
-      "details": "zaa",
-      "complete": false,
-      "id": 6
-    }
-  ]
+  "projects": []
 }

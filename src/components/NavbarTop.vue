@@ -8,10 +8,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item" style="margin-top:7px">
-            <router-link :to="{ name: 'home' }" style="text-decoration:none; color:rgb(162, 158, 158); margin-right:15px; font-size: 18px;">Home</router-link> 
+            <router-link :to="{ name: 'home' }" style="text-decoration:none; color:rgb(162, 158, 158); margin-right:25px; font-size: 18px;">Home</router-link> 
           </li>
           <li class="nav-item" style="margin-top:7px">
-             <router-link :to="{ name: 'AddProject' }" style="text-decoration:none; color:rgb(162, 158, 158); marging-right:15px;font-size: 18px;">AddProject</router-link> 
+             <router-link :to="{ name: 'AddProject' }" style="text-decoration:none; color:rgb(162, 158, 158); margin-right:25px;font-size: 18px;">AddProject</router-link> 
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -23,9 +23,6 @@
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>
         </ul>
         <form class="d-flex">

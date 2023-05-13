@@ -1,6 +1,6 @@
 <template>
-  <NavbarTop />
-  <HomeView  style="margin-top:100px"/>
+  <NavbarTop/>
+  <HomeView />
   <router-view />
 </template>
 
